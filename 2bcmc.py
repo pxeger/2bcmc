@@ -81,7 +81,7 @@ Options:
 \t-c\t<program> is a literal string of code (using the code page)
 
 More info: https://github.com/pxeger/2bcmc""")
-    sys.exit(0)
+        sys.exit(0)
     
     match args:
         case ["-b", path]:
